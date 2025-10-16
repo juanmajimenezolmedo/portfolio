@@ -13,7 +13,7 @@
     --background-color: #080808;
     --second-background-color: #101010;
     --text-color: white;
-    --main-color: #ea580c;
+    --main-color: #10ea0c;
 }
 
 html {
@@ -66,8 +66,8 @@ body {
 span {
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        #10ea0c 10%,
+        #0965b1 100%
     );
     background-clip: text;
     color: transparent;
@@ -93,8 +93,8 @@ span {
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        #10ea0c 10%,
+        #0965b1 100%
     );
     letter-spacing: 1px;
     cursor: pointer;
