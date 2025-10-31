@@ -302,7 +302,7 @@
      gap: 3rem;
  }
 
- .project-card {
+.project-card {
      background: var(--background-color);
      border: 2px solid rgba(59, 130, 246, 0.2);
      border-radius: 2rem;
@@ -311,6 +311,8 @@
      transition: 0.3s ease;
      cursor: pointer;
      text-align: center;
+     display: flex;
+     flex-direction: column;
  }
 
  .project-card:hover {
@@ -330,8 +332,11 @@
      color: var(--main-color);
  }
 
- .project-card .project-content {
+.project-card .project-content {
      padding: 3rem;
+     display: flex;
+     flex-direction: column;
+     flex-grow: 1; 
  }
 
  .project-card h3 {
@@ -371,11 +376,12 @@
      text-align: justify;
  }
 
- .project-card .btn {
+.project-card .btn {
      padding: 1rem 2.5rem;
      font-size: 1.4rem;
      width: 100%;
      border-radius: 2rem;
+     margin-top: auto; 
  }
 
  /* EXPERIENCE SECTION */
@@ -686,6 +692,7 @@
      scrollbar-width: thin;
      scrollbar-color: var(--main-color) var(--background-color);
  }
+
 
 
 
