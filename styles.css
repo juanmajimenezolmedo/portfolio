@@ -285,22 +285,22 @@
  }
 
 
- /* PROJECTS SECTION */
- .projects {
+/* PROJECTS SECTION */
+.projects {
      background: var(--second-background-color);
- }
+}
 
- .projects-container {
+.projects-container {
      display: flex;
      flex-direction: column;
      gap: 3rem;
- }
+}
 
- .projects-box {
+.projects-box {
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
      gap: 3rem;
- }
+}
 
 .project-card {
      background: var(--background-color);
@@ -313,15 +313,15 @@
      text-align: center;
      display: flex;
      flex-direction: column;
- }
+}
 
- .project-card:hover {
+.project-card:hover {
      border-color: var(--main-color);
      transform: translateY(-10px);
      box-shadow: 0 20px 50px rgba(59, 130, 246, 0.3);
- }
+}
 
- .project-card .project-img {
+.project-card .project-img {
      width: 100%;
      height: 250px;
      background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%);
@@ -330,59 +330,67 @@
      justify-content: center;
      font-size: 8rem;
      color: var(--main-color);
- }
+     overflow: hidden; 
+}
+
+.project-card .project-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     display: block;
+}
 
 .project-card .project-content {
      padding: 3rem;
      display: flex;
      flex-direction: column;
-     flex-grow: 1; 
- }
+     flex-grow: 1;
+}
 
- .project-card h3 {
+.project-card h3 {
      font-size: 2.3rem;
      margin-bottom: 1rem;
      color: var(--text-color);
- }
+}
 
- .project-card .project-tags {
+.project-card .project-tags {
      display: flex;
      flex-wrap: wrap;
      gap: 0.8rem;
      margin-bottom: 1.5rem;
- }
+}
 
- .project-tags {
+.project-tags {
      display: flex;
      align-items: center;
-     justify-content: center; 
-     flex-wrap: wrap;       
-     gap: 1rem;            
- }
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 1rem;
+}
 
- .project-tag {
+.project-tag {
      padding: 0.5rem 1.2rem;
      background: rgba(59, 130, 246, 0.1);
      border-radius: 1.5rem;
      font-size: 1.5rem;
      color: var(--main-color);
- }
+}
 
- .project-card p {
+.project-card p {
      font-size: 1.5rem;
      line-height: 1.7;
      color: #a1a1aa;
      margin-bottom: 2rem;
      text-align: justify;
- }
+}
 
 .project-card .btn {
      padding: 1rem 2.5rem;
      font-size: 1.4rem;
      width: 100%;
      border-radius: 2rem;
-     margin-top: auto; 
- }
+     margin-top: auto;
+}
 
  /* EXPERIENCE SECTION */
  .experience {
@@ -692,6 +700,7 @@
      scrollbar-width: thin;
      scrollbar-color: var(--main-color) var(--background-color);
  }
+
 
 
 
